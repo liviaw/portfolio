@@ -7,7 +7,7 @@ import styles from './Experiment.css';
 function Experiment () {
 
     return (
-        <div></div>
+        <div>Experiment</div>
     )
 
 }

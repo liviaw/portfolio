@@ -5,3 +5,10 @@
 body {
   background-color:#f8f6f4; 
 }
+
+.CenterElements {
+  position: fixed;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
