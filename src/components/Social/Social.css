@@ -1,0 +1,16 @@
+.socialbar{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0px;
+    top: 40%;
+    padding: 10px 10px 10px 10px;
+    z-index: 1;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.socialbar img{
+    margin: 10px 0px 10px 0px;
+    cursor: pointer;
+}

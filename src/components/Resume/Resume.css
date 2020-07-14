@@ -1,0 +1,35 @@
+.resume-body {
+    padding: 0 20%;
+    height: 100%;
+  }
+  
+  .page-title {
+    text-transform: capitalize !important;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color:  #564c39;
+    padding-bottom: 50px;
+  }
+  
+  .body {
+    text-align: center;
+  }
+  
+  iframe {
+    height: 100vh;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .page-title {
+      padding-bottom: 20px;
+    }
+    .resume-body {
+      padding: 0 10%;
+      height: 100%;
+    }
+    iframe {
+      height: 600px;
+    }
+  }
+  
