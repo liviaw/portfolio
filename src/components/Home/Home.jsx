@@ -27,6 +27,10 @@ class Home extends React.Component {
             <h2 className="tagline">
               SOFTWARE ENGINEER
             </h2>
+            <p>Hi there! 
+            I am an aspiring Software Engineer with a keen interest in web development, entrepreneurship and self-improvement! Studying in my penultimate year of Computer Science at the University of New South Wales.
+            I am currently working part time as a software engineer at Nasdaq.
+            In my spare time, I like to create workshops for high school students as well as baking!</p>
           </div>
         </div>
       </div>
