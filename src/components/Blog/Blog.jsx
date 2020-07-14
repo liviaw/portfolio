@@ -6,7 +6,7 @@ import styles from './Blog.css';
 function Blog () {
 
     return (
-        <div></div>
+        <p> Coming real soon I promise!</p>
     )
 
 }

@@ -20,15 +20,22 @@ class Home extends React.Component {
   render() {
     return (
       <div className="home-container">
+        <a href="/"><img className="livlogo" src={Logo} alt="logo"/></a>
         <div className="home-body">
-          <div className="image_div" style={{backgroundImage: 'url("' + Logo + '")'}}></div>
+        
+
+          {/* <div className="image_div"style={{backgroundImage: 'url("' + Logo + '")'}}></div> */}
           <div className="intro">
-            <h1 className="fullname">LIVIA WIJAYANTI</h1>
+          
+            {/* <h1 className="fullname">LIVIA WIJAYANTI</h1> */}
             <h2 className="tagline">
               SOFTWARE ENGINEER
             </h2>
             <p>Hi there! 
-            I am an aspiring Software Engineer with a keen interest in web development, entrepreneurship and self-improvement! Studying in my penultimate year of Computer Science at the University of New South Wales.
+            I am a Computer Science student with a keen interest in web development, entrepreneurship and self-improvement.
+            </p>
+            <p>
+            Studying in my penultimate year at the University of New South Wales.
             I am currently working part time as a software engineer at Nasdaq.
             In my spare time, I like to create workshops for high school students as well as baking!</p>
           </div>

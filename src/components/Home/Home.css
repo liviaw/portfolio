@@ -4,12 +4,11 @@
     justify-content: center;
   }
   
-  .home-container {
+.home-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 0 10%;
-    height: 90vh;
   }
   
   .home-body .image_div {
@@ -39,7 +38,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 5%;
+  }
+
+  .livlogo {
+    /* height: 100vh !important; 
+    object-fit: contain; */
+    object-fit: cover;
+    height: 35vh;
+    width:50%;
   }
   
   @media only screen and (max-width: 600px) {
